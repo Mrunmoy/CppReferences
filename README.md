@@ -2,6 +2,17 @@
 
 This project demonstrates how **C++ references** are implemented under the hood, by looking at compiler-generated assembly.
 
+### Try the Code Live
+
+You can interactively explore the C++ code and its ARM assembly output using Compiler Explorer:
+
+[View on Godbolt](https://godbolt.org/z/TvWYb535E)
+  
+Or click the screenshot below to launch it:
+
+[![View on Godbolt](docs/godbolt.png)](https://godbolt.org/z/TvWYb535E)
+
+
 We use a simple struct and pass it to a function by `const &` reference:
 
 ```cpp
